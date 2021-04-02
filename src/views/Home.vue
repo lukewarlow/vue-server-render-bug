@@ -1,9 +1,15 @@
 <template>
     <div>
-		<img src="/img/generic-logo.svg"/>
+		<picture>
+			<source media="(prefers-color-scheme: dark)" type="image/svg+xml" srcset="/img/generic-logo-white.svg"/>
+			<img src="/img/generic-logo-black.svg"/>
+		</picture>
 
 		<router-link to="/other">
-			<img src="/img/code.svg"/>
+			<picture>
+				<source media="(prefers-color-scheme: dark)" type="image/svg+xml" srcset="/img/code-white.svg"/>
+				<img src="/img/code-black.svg"/>
+			</picture>
 		</router-link>
     </div>
 </template>
@@ -15,3 +21,9 @@
 		name: 'Home',
 	});
 </script>
+
+<style>
+	:root {
+		color-scheme: light dark;
+	}
+</style>
