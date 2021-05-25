@@ -25,7 +25,7 @@ var _imports_0 = "/img/generic-logo-white.svg";
 var _imports_1 = "/img/generic-logo-black.svg";
 var _imports_2 = "/img/code-white.svg";
 var _imports_3 = "/img/code-black.svg";
-var Home_vue_vue_type_style_index_0_lang = "\n:root {\n		color-scheme: light dark;\n}\n";
+var Home_vue_vue_type_style_index_0_lang = "";
 const _hoisted_1 = _imports_0;
 const _hoisted_2 = _imports_2;
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
